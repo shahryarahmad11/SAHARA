@@ -59,10 +59,10 @@ Individual contributions can be verified in the [commit history](../../commits/c
 
 ```
 SAHARA/
-â”œâ”€â”€ cad_models/        # SolidWorks parts (.SLDPRT) and assembly (.SLDASM)
-â”œâ”€â”€ docs/images/       # Renders and screenshots
-â”œâ”€â”€ .gitignore
-â””â”€â”€ README.md
+cad_models/        # SolidWorks parts (.SLDPRT) and assembly (.SLDASM)
+docs/images/       # Renders and screenshots
+.gitignore
+README.md
 ```
 
 ## Opening the CAD Model
