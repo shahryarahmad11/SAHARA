@@ -29,7 +29,7 @@ Each member independently designed their own set of components in SolidWorks and
 
 | Contributor | Components Modeled | Files |
 |---|---|---|
-| **Shahryar Ahmad** (22i-0939) | Arm components, leg components | `aRM.SLDPRT`, `aRM 2.SLDPRT`, `leg 5.SLDPRT`, `LEG 122.SLDPRT` |
+| **Shahryar Ahmad** (22i-0939) | Arm components, leg components, track component | `aRM.SLDPRT`, `aRM 2.SLDPRT`, `leg 5.SLDPRT`, `LEG 122.SLDPRT`, `T 1.SLDPRT` |
 | **Shahryar Ahmad** (22i-0939) | Full wheelchair assembly (wheels, track deployment mechanism, mates) | `Assem1 wheels cair.SLDASM` |
 
 Individual contributions can be verified in the [commit history](../../commits/cad_models), where every file was committed by the member who modeled it.
@@ -55,14 +55,21 @@ Individual contributions can be verified in the [commit history](../../commits/c
 | Side view | Isometric view |
 |---|---|
 | ![Track deployed side](docs/images/assembly-track-deployed-side-view.jpeg) | ![Track deployed iso](docs/images/assembly-track-deployed-iso-view.jpeg) |
+
+
+### Uncolored view (wheel-drive pose)
+
+| Isometric view (uncolored) |
+|---|
+| ![Wheel mode iso uncolored](docs/images/assembly-wheel-mode-iso-view-uncolored.jpeg) |
 ## Repository Structure
 
 ```
 SAHARA/
-cad_models/        # SolidWorks parts (.SLDPRT) and assembly (.SLDASM)
-docs/images/       # Renders and screenshots
-.gitignore
-README.md
+├── cad_models/        # SolidWorks parts (.SLDPRT) and assembly (.SLDASM)
+├── docs/images/       # Renders and screenshots
+├── .gitignore
+└── README.md
 ```
 
 ## Opening the CAD Model
@@ -81,7 +88,7 @@ README.md
 
 ## Tech Stack
 
-SolidWorks (current) Â· ROS 2 Humble Â· Gazebo Classic Â· Nav2 Â· Ubuntu 22.04 (planned)
+SolidWorks (current) · ROS 2 Humble · Gazebo Classic · Nav2 · Ubuntu 22.04 (planned)
 
 ## Acknowledgments
 
