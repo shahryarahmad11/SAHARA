@@ -1,4 +1,4 @@
-# SAHARA: Smart Autonomous Hybrid Assistive Robotic Architecture
+﻿# SAHARA: Smart Autonomous Hybrid Assistive Robotic Architecture
 
 ![Status](https://img.shields.io/badge/status-FYP--1%20Mid--1%20(Iteration%201)-blue)
 ![CAD](https://img.shields.io/badge/CAD-SolidWorks-red)
@@ -44,18 +44,25 @@ Individual contributions can be verified in the [commit history](../../commits/c
 
 ## Renders
 
-| Side view | Isometric view | Armrest controls |
-|---|---|---|
-| ![Side](docs/images/side-view.png) | ![Iso](docs/images/iso-view.png) | ![Controls](docs/images/armrest-controls.png) |
+### Wheel-drive pose (flat-ground mode)
 
+| Dimetric view | Right side view |
+|---|---|
+| ![Wheel mode dimetric](docs/images/assembly-wheel-mode-dimetric-view.jpeg) | ![Wheel mode right](docs/images/assembly-wheel-mode-right-view.jpeg) |
+
+### Track-deployed pose (stair-climbing mode)
+
+| Side view | Isometric view |
+|---|---|
+| ![Track deployed side](docs/images/assembly-track-deployed-side-view.jpeg) | ![Track deployed iso](docs/images/assembly-track-deployed-iso-view.jpeg) |
 ## Repository Structure
 
 ```
 SAHARA/
-├── cad_models/        # SolidWorks parts (.SLDPRT) and assembly (.SLDASM)
-├── docs/images/       # Renders and screenshots
-├── .gitignore
-└── README.md
+â”œâ”€â”€ cad_models/        # SolidWorks parts (.SLDPRT) and assembly (.SLDASM)
+â”œâ”€â”€ docs/images/       # Renders and screenshots
+â”œâ”€â”€ .gitignore
+â””â”€â”€ README.md
 ```
 
 ## Opening the CAD Model
@@ -74,7 +81,7 @@ SAHARA/
 
 ## Tech Stack
 
-SolidWorks (current) · ROS 2 Humble · Gazebo Classic · Nav2 · Ubuntu 22.04 (planned)
+SolidWorks (current) Â· ROS 2 Humble Â· Gazebo Classic Â· Nav2 Â· Ubuntu 22.04 (planned)
 
 ## Acknowledgments
 
