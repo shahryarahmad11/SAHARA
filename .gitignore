@@ -1,0 +1,7 @@
+﻿# SolidWorks temp/lock files
+~$*
+*.bak
+*.tmp
+# OS files
+Thumbs.db
+.DS_Store
