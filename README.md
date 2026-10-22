@@ -32,6 +32,7 @@ Each member independently designed their own set of components in SolidWorks and
 | **Shahryar Ahmad** (22i-0939) | Arm components, leg components, track component | `aRM.SLDPRT`, `aRM 2.SLDPRT`, `leg 5.SLDPRT`, `LEG 122.SLDPRT`, `T 1.SLDPRT` |
 | **Abdurrehman Ahmed** (22i-0988) | Main seating chair, foot pedal, and structural legs | `Chair 1.SLDPRT`, `Padel 1.SLDPRT`, `Leg 1.SLDPRT`, `Leg 4.SLDPRT` |
 | **Shahryar Ahmad** (22i-0939) | Full wheelchair assembly (wheels, track deployment mechanism, mates) | `Assem1 wheels cair.SLDASM` |
+| **Muhammad Awais** (22i-0930) | Leg component, additional leg component, and P1 component | `lan g.SLDPRT`, `LEG 12.SLDPRT`, `P 1.SLDPRT` |
 
 Individual contributions can be verified in the [commit history](../../commits/cad_models), where every file was committed by the member who modeled it.
 
